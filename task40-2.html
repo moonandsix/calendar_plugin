@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>日历</title>
+    <link rel="stylesheet" href="task40-2.css">
+</head>
+<body>
+<input type="text" id="input">
+<input type="text" id="d1">
+<input type="text" id="d2">
+
+</body>
+<script src="jquery-3.2.0.js"></script>
+<script src="task40-2.js"></script>
+<script>
+    var cal1=new Calender({
+        id:"#input",
+        startYear:1970,
+        endYear:2050,
+        containerId:"c1"
+    })
+    var cal2=new Calender({
+        id:"#d1",
+        startYear:1970,
+        endYear:2050,
+        containerId:"c2"
+    })
+    var cal3=new Calender({
+        id:"#d2",
+        startYear:1970,
+        endYear:2050,
+        containerId:"c3"
+    })
+</script>
+</html>

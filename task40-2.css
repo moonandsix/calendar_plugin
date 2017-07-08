@@ -1,0 +1,71 @@
+
+body{
+    text-align: center;
+}
+.wrap{
+    position: absolute;
+    width:300px;
+    height:350px;
+    border:1px solid black;
+}
+.left,.right{
+    position: absolute;
+    cursor: pointer;
+    color: red;
+    text-align: center;
+    height:9px;
+    background: url("o_nextprv.png") no-repeat;
+    top:7px;
+}
+.left{
+    left:40px;
+    width:6px;
+    background-position: -4px 0px;
+    margin-top: 5px;
+}
+.right{
+    margin-top: 5px;
+    right:40px;
+    width:5px;
+    background-position: -19px 0px;
+}
+.weekdays{
+    margin-top: 10px;
+    margin-left:6px;
+    height:auto;
+}
+.days{
+    margin-left:6px;
+    height:auto;
+}
+.title{
+    margin-top: 5px;
+}
+.weekday,.blank,.day{
+    border:1px solid black;
+    width:35px;
+    height:30px;
+    float:left;
+    margin:2px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.day:hover{
+    font-weight: bold;
+    background-color:darkslategray;
+    cursor:pointer;
+}
+.toDay{
+    background-color: yellowgreen;
+}
+.confirm{
+    width: 300px;
+    float:left;
+    margin-top: 5px;
+}
+.enter,.cancel{
+    margin:10px;
+}
+.click{
+    background-color: darkslategray;
+}
